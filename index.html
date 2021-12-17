@@ -1,0 +1,176 @@
+<htlm>
+           <head>
+                      <title>Iris Honigsberg</title>
+                      <meta name="description" content="View the profile of Iris Honigsberg">
+                      <meta charset="UTF-8">
+                      <script src="https://kit.fontawesome.com/d8d9cfbdb4.js" crossorigin="anonymous"></script>
+                      <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300;700&family=IBM+Plex+Sans:wght@300&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+           </head>
+    <body>
+        <div class="container">
+           <div class="card-white" id="introduction">
+                   <h1>Hi, my name is Iris Honigsberg</h1>
+                   <img src="photo.jpg" alt="Iris" id="photo" class="img-circle" width=300>
+                   <p>
+                              I am a student at <span>HEC Paris</span>. I like tribal and contemporary art, cinema and rugby. I used to be a volunteer in the association <span>La Croix Rouge</span>. Now, I am invested into HEC's associations as <span>Grand Cru</span>, an oenology association or  <span>TrHEC</span>, a trekking association.  I would like to work in Art Business and more precisely in art finance where innovations interest me a lot.
+                   </p>
+                   <a href="cv.pdf" class="btn-red" target="_blank">MY CURRICULUM</a>
+            </div>
+ 
+            <div class="card-white">
+                      <h2>La Croix Rouge</h2>
+                   <p>
+                      La Croix Rouge has more than 65,450 volunteers and 16,703 employees throughout the country. As an auxiliary to the public authorities in its humanitarian missions, La Croix Rouge is constantly fighting to relieve the suffering of people.
+                   <h3>
+                    <a href="https://www.croix-rouge.fr/"target="_blank">Read more</a>
+               </p>
+            </div>
+ 
+            <div class="card-white">
+                   <h2>Grand Cru</h2>
+                   <p>
+                          HEC Grand Cru is the wine association of HEC Paris. By organizing weekly tastings on campus and visits to producers, members of the association have the opportunity to meet local producers and discover their products.
+                       <h3>
+                    <a href="https://www.hec.edu/fr/grande-ecole-masters/vie-etudiante/associations-etudiantes/hec-grand-cru" target="_blank">Read more</a>
+                   </p>
+               </div>
+ 
+               <div class="card-white">
+                   <h2>TrHEC</h2>
+                   <p>
+                             The TrHEC association aims to promote the practice of trekking within the HEC Paris business school. It organizes discovery trips and campaigns to raise awareness about the protection of landscapes and nature.
+                   </p>
+                   <h3>
+                   <a href="https://www.facebook.com/club.trhec/" target="_blank">Read more</a>
+            </div>
+ 
+               <div class="card-white">
+                   <h2>Contact me</h2>
+                   <ul class="list-inline">
+                              <li>
+                                 <a href="mailto:iris.honigsberg@hec.edu" target="_blank">
+                                     <i class="fas fa-envelope-square"></i>
+                                     </a>
+                              </li>
+                              <li>
+                                        <a href="https://www.linkedin.com/in/iris-honigsberg-674578201/?originalSubdomain=fr" target="_blank">
+                                        <i class="fab fa-linkedin"></i>
+                                        </a>
+                              </li>
+                              <li>
+                                     <a href="https://www.facebook.com/iris.honigsberg.3//" target="_blank">
+                                     <i class="fab fa-facebook-square"></i>
+                                     </a>
+                              </li>
+                   </ul>
+          </div>
+        </div>
+    </body>
+</htlm>
+ 
+ 
+ 
+Style CSS
+ 
+body{
+           background-color: rgb(245, 245, 245);
+           color: rgb(120, 120, 120);
+           font-family: 'IBM Plex Sans', sans-serif;
+           font-size: 16px;
+           font-weight: 600;
+}
+h1, h2 {
+           font-family: 'Fira Sans', sans-serif;
+}
+h1{
+           color: black;
+           font-size: 40px;
+           font-weight: 700;
+           margin-top: -15px;
+           margin-bottom: 0.3em;
+}
+h2{
+           color: rgb(30, 30, 30);
+           font-size: 24px;
+           font-weight: 600;
+}
+a {
+    text-decoration: none;
+    color: #181573;
+    transition: color 0.2s ease;
+}
+a:hover {
+           color: #3F6699;
+}
+ 
+p span {
+           color: #181573;
+}
+ 
+.container{
+           width: 750px;
+           margin: 22px auto;
+}
+ 
+@media (max-width: 760px) {
+    .container {
+           width: 600px
+    }
+}
+ 
+@media (max-width: 500px) {
+    .container {
+           width: 400px
+    }
+}
+ 
+ 
+.card-white {
+           background-color: white;
+           padding: 70px;
+           border-radius: 4px;
+           box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+           margin: 20px 0px;
+           text-align: justify;
+           text-align-last: center
+}
+ 
+.img-circle{
+           border-radius: 50%;
+}
+#photo{
+           width: 175px;
+}
+.btn-red{
+           background-color: #181573;  
+           color: white;
+           padding: 10px 12px;
+           border-radius: 4px;
+}
+.btn-red:hover {
+           background-color: #3F6699;
+           color: white;
+}
+ 
+.list-inline {
+           list-style: none;
+           padding-left: 0px;
+}
+.list-inline li {
+           display: inline;
+           padding: 10px;
+}
+.list-inline i {
+           font-size: 50px;
+           color: lightgrey;
+}
+ 
+.list-inline i:hover {
+           font-size: 50px;
+           color: #181573;
+}
+ 
+#introduction p {
+           margin-bottom: 40px;
+}
